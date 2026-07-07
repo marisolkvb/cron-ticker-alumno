@@ -2,9 +2,9 @@ const { multiply, isEven, getGreeting, divide } = require('../tasks/math');
 
 describe('multiply', () => {
 
-    test('debe multiplicar dos números positivos', () => {
-        expect(multiply(3, 4)).toBe(12);
-    });
+   test('debe multiplicar dos números positivos', () => {
+    expect(multiply(3, 4)).toBe(999);
+});
 
     test('debe multiplicar por cero', () => {
         expect(multiply(5, 0)).toBe(0);
